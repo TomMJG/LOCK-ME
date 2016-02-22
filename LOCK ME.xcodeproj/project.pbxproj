@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259668091C7B296300EE1094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259668081C7B296300EE1094 /* AppDelegate.swift */; };
+		2596680B1C7B296300EE1094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2596680A1C7B296300EE1094 /* ViewController.swift */; };
+		2596680E1C7B296300EE1094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2596680C1C7B296300EE1094 /* Main.storyboard */; };
+		259668111C7B296300EE1094 /* LOCK_ME.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2596680F1C7B296300EE1094 /* LOCK_ME.xcdatamodeld */; };
+		259668131C7B296300EE1094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259668121C7B296300EE1094 /* Assets.xcassets */; };
+		259668161C7B296300EE1094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259668141C7B296300EE1094 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		259668051C7B296300EE1094 /* LOCK ME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOCK ME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259668081C7B296300EE1094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2596680A1C7B296300EE1094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2596680D1C7B296300EE1094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259668101C7B296300EE1094 /* LOCK_ME.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LOCK_ME.xcdatamodel; sourceTree = "<group>"; };
+		259668121C7B296300EE1094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259668151C7B296300EE1094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259668171C7B296300EE1094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259668021C7B296300EE1094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259667FC1C7B296300EE1094 = {
+			isa = PBXGroup;
+			children = (
+				259668071C7B296300EE1094 /* LOCK ME */,
+				259668061C7B296300EE1094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259668061C7B296300EE1094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259668051C7B296300EE1094 /* LOCK ME.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259668071C7B296300EE1094 /* LOCK ME */ = {
+			isa = PBXGroup;
+			children = (
+				259668081C7B296300EE1094 /* AppDelegate.swift */,
+				2596680A1C7B296300EE1094 /* ViewController.swift */,
+				2596680C1C7B296300EE1094 /* Main.storyboard */,
+				259668121C7B296300EE1094 /* Assets.xcassets */,
+				259668141C7B296300EE1094 /* LaunchScreen.storyboard */,
+				259668171C7B296300EE1094 /* Info.plist */,
+				2596680F1C7B296300EE1094 /* LOCK_ME.xcdatamodeld */,
+			);
+			path = "LOCK ME";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259668041C7B296300EE1094 /* LOCK ME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2596681A1C7B296300EE1094 /* Build configuration list for PBXNativeTarget "LOCK ME" */;
+			buildPhases = (
+				259668011C7B296300EE1094 /* Sources */,
+				259668021C7B296300EE1094 /* Frameworks */,
+				259668031C7B296300EE1094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LOCK ME";
+			productName = "LOCK ME";
+			productReference = 259668051C7B296300EE1094 /* LOCK ME.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259667FD1C7B296300EE1094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "马家固";
+				TargetAttributes = {
+					259668041C7B296300EE1094 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 259668001C7B296300EE1094 /* Build configuration list for PBXProject "LOCK ME" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259667FC1C7B296300EE1094;
+			productRefGroup = 259668061C7B296300EE1094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259668041C7B296300EE1094 /* LOCK ME */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259668031C7B296300EE1094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259668161C7B296300EE1094 /* LaunchScreen.storyboard in Resources */,
+				259668131C7B296300EE1094 /* Assets.xcassets in Resources */,
+				2596680E1C7B296300EE1094 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259668011C7B296300EE1094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2596680B1C7B296300EE1094 /* ViewController.swift in Sources */,
+				259668111C7B296300EE1094 /* LOCK_ME.xcdatamodeld in Sources */,
+				259668091C7B296300EE1094 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2596680C1C7B296300EE1094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2596680D1C7B296300EE1094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259668141C7B296300EE1094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259668151C7B296300EE1094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259668181C7B296300EE1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		259668191C7B296300EE1094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2596681B1C7B296300EE1094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LOCK ME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genii.LOCK-ME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2596681C1C7B296300EE1094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LOCK ME/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genii.LOCK-ME";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259668001C7B296300EE1094 /* Build configuration list for PBXProject "LOCK ME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259668181C7B296300EE1094 /* Debug */,
+				259668191C7B296300EE1094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2596681A1C7B296300EE1094 /* Build configuration list for PBXNativeTarget "LOCK ME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2596681B1C7B296300EE1094 /* Debug */,
+				2596681C1C7B296300EE1094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2596680F1C7B296300EE1094 /* LOCK_ME.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				259668101C7B296300EE1094 /* LOCK_ME.xcdatamodel */,
+			);
+			currentVersion = 259668101C7B296300EE1094 /* LOCK_ME.xcdatamodel */;
+			path = LOCK_ME.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 259667FD1C7B296300EE1094 /* Project object */;
+}
