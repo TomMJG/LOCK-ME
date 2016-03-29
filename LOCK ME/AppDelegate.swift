@@ -17,6 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //初始化leanCloud
+        AVOSCloud.setApplicationId("GUUHNk7U7sprocVU2RFRYJGA-gzGzoHsz", clientKey: "Ki05ns695A80HmueFPjCfsOK")
+        
+        //初始化人脸识别API
+        FaceppAPI.initWithApiKey("60329306e5300161c74ccc4bd469a475", andApiSecret: "Y1OFkpTQ0md66yhE4SyjFfvQbeMkFh6K", andRegion: APIServerRegionCN)
+        //显示debug信息
+        FaceppAPI.setDebugMode(true)
+        
+        //初始化声纹对象
+        let initVoiceString = "appid=300009420260,timeout=20000,server_url=http://cmcc.lingxicloud.com/msp.do"
+        IFlySpeechUtility.createUtility(initVoiceString)
+        
+        //设置log等级
+        IFlySetting.setLogFile(LOG_LEVEL.LVL_ALL)
+        IFlySetting.showLogcat(true)
+        
+        let paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.CachesDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+        IFlySetting.setLogFilePath(paths[0])
+        
         return true
     }
 

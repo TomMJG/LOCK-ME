@@ -7,23 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250ED9111C8991FE00713CB0 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9101C8991FE00713CB0 /* iflyMSC.framework */; };
+		250ED9131C89924C00713CB0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9121C89924C00713CB0 /* CoreLocation.framework */; };
+		250ED9151C89925800713CB0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9141C89925800713CB0 /* CoreTelephony.framework */; };
+		250ED9171C89925F00713CB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9161C89925F00713CB0 /* CoreGraphics.framework */; };
+		250ED9191C89926700713CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9181C89926700713CB0 /* Foundation.framework */; };
+		250ED91B1C89926F00713CB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED91A1C89926F00713CB0 /* UIKit.framework */; };
+		250ED91D1C89927D00713CB0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED91C1C89927D00713CB0 /* libz.tbd */; };
+		250ED91F1C89928700713CB0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED91E1C89928700713CB0 /* QuartzCore.framework */; };
+		250ED9211C8992A100713CB0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9201C8992A100713CB0 /* AudioToolbox.framework */; };
+		250ED9231C8992A700713CB0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9221C8992A700713CB0 /* SystemConfiguration.framework */; };
+		250ED9251C8992B000713CB0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9241C8992B000713CB0 /* AddressBook.framework */; };
+		250ED9271C8992B700713CB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ED9261C8992B700713CB0 /* AVFoundation.framework */; };
+		256895C41C7B492B00A65C8B /* FaceppAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895AB1C7B492B00A65C8B /* FaceppAPI.m */; };
+		256895C51C7B492B00A65C8B /* FaceppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895AE1C7B492B00A65C8B /* FaceppClient.m */; };
+		256895C61C7B492B00A65C8B /* FaceppDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895B01C7B492B00A65C8B /* FaceppDetection.m */; };
+		256895C71C7B492B00A65C8B /* FaceppFaceset.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895B21C7B492B00A65C8B /* FaceppFaceset.m */; };
+		256895C81C7B492B00A65C8B /* FaceppGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895B41C7B492B00A65C8B /* FaceppGroup.m */; };
+		256895C91C7B492B00A65C8B /* FaceppGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895B61C7B492B00A65C8B /* FaceppGrouping.m */; };
+		256895CA1C7B492B00A65C8B /* FaceppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895B81C7B492B00A65C8B /* FaceppInfo.m */; };
+		256895CB1C7B492B00A65C8B /* FaceppPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895BA1C7B492B00A65C8B /* FaceppPerson.m */; };
+		256895CC1C7B492B00A65C8B /* FaceppRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895BC1C7B492B00A65C8B /* FaceppRecognition.m */; };
+		256895CD1C7B492B00A65C8B /* FaceppTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895BE1C7B492B00A65C8B /* FaceppTrainer.m */; };
+		256895CE1C7B492B00A65C8B /* FaceppError.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895C11C7B492B00A65C8B /* FaceppError.m */; };
+		256895CF1C7B492B00A65C8B /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 256895C31C7B492B00A65C8B /* FaceppResult.m */; };
+		256895D11C7B4A3400A65C8B /* 1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 256895D01C7B4A3400A65C8B /* 1-2.jpg */; };
+		256895D31C7B61C500A65C8B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256895D21C7B61C400A65C8B /* RegisterViewController.swift */; };
 		259668091C7B296300EE1094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259668081C7B296300EE1094 /* AppDelegate.swift */; };
-		2596680B1C7B296300EE1094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2596680A1C7B296300EE1094 /* ViewController.swift */; };
 		2596680E1C7B296300EE1094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2596680C1C7B296300EE1094 /* Main.storyboard */; };
 		259668111C7B296300EE1094 /* LOCK_ME.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2596680F1C7B296300EE1094 /* LOCK_ME.xcdatamodeld */; };
 		259668131C7B296300EE1094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259668121C7B296300EE1094 /* Assets.xcassets */; };
 		259668161C7B296300EE1094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259668141C7B296300EE1094 /* LaunchScreen.storyboard */; };
+		2596686B1C7B2AE400EE1094 /* faceRecognitionMethods+data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2596686A1C7B2AE400EE1094 /* faceRecognitionMethods+data.swift */; };
+		2596686D1C7B2BFC00EE1094 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2596686C1C7B2BFC00EE1094 /* Podfile */; };
+		2596686F1C7B2C1F00EE1094 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2596686E1C7B2C1F00EE1094 /* SwiftNotice.swift */; };
+		259668711C7B323D00EE1094 /* NormalLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259668701C7B323D00EE1094 /* NormalLoginViewController.swift */; };
+		25B098801C7F514A000AFDA0 /* ConfirmPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0987F1C7F514A000AFDA0 /* ConfirmPassViewController.swift */; };
+		25B098821C7F5D59000AFDA0 /* regFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B098811C7F5D59000AFDA0 /* regFaceViewController.swift */; };
+		25B098861C7F5E3B000AFDA0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B098851C7F5E3B000AFDA0 /* MobileCoreServices.framework */; };
+		25B098881C7F5E47000AFDA0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B098871C7F5E47000AFDA0 /* AssetsLibrary.framework */; };
+		25B0988C1C7F816E000AFDA0 /* regVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0988B1C7F816E000AFDA0 /* regVoiceViewController.swift */; };
+		25BB472F1CA16CD000EB71DE /* Waver.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB472E1CA16CD000EB71DE /* Waver.m */; };
+		40CC6DCF914276487C1529B4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508478A802DF4D8670805F07 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250ED9101C8991FE00713CB0 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = lib/iflyMSC.framework; sourceTree = "<group>"; };
+		250ED9121C89924C00713CB0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		250ED9141C89925800713CB0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		250ED9161C89925F00713CB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		250ED9181C89926700713CB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		250ED91A1C89926F00713CB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		250ED91C1C89927D00713CB0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		250ED91E1C89928700713CB0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		250ED9201C8992A100713CB0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		250ED9221C8992A700713CB0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		250ED9241C8992B000713CB0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		250ED9261C8992B700713CB0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		256895AA1C7B492B00A65C8B /* FaceppAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppAPI.h; sourceTree = "<group>"; };
+		256895AB1C7B492B00A65C8B /* FaceppAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppAPI.m; sourceTree = "<group>"; };
+		256895AD1C7B492B00A65C8B /* FaceppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppClient.h; sourceTree = "<group>"; };
+		256895AE1C7B492B00A65C8B /* FaceppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppClient.m; sourceTree = "<group>"; };
+		256895AF1C7B492B00A65C8B /* FaceppDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppDetection.h; sourceTree = "<group>"; };
+		256895B01C7B492B00A65C8B /* FaceppDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppDetection.m; sourceTree = "<group>"; };
+		256895B11C7B492B00A65C8B /* FaceppFaceset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppFaceset.h; sourceTree = "<group>"; };
+		256895B21C7B492B00A65C8B /* FaceppFaceset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppFaceset.m; sourceTree = "<group>"; };
+		256895B31C7B492B00A65C8B /* FaceppGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGroup.h; sourceTree = "<group>"; };
+		256895B41C7B492B00A65C8B /* FaceppGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGroup.m; sourceTree = "<group>"; };
+		256895B51C7B492B00A65C8B /* FaceppGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGrouping.h; sourceTree = "<group>"; };
+		256895B61C7B492B00A65C8B /* FaceppGrouping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGrouping.m; sourceTree = "<group>"; };
+		256895B71C7B492B00A65C8B /* FaceppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppInfo.h; sourceTree = "<group>"; };
+		256895B81C7B492B00A65C8B /* FaceppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppInfo.m; sourceTree = "<group>"; };
+		256895B91C7B492B00A65C8B /* FaceppPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppPerson.h; sourceTree = "<group>"; };
+		256895BA1C7B492B00A65C8B /* FaceppPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppPerson.m; sourceTree = "<group>"; };
+		256895BB1C7B492B00A65C8B /* FaceppRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppRecognition.h; sourceTree = "<group>"; };
+		256895BC1C7B492B00A65C8B /* FaceppRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppRecognition.m; sourceTree = "<group>"; };
+		256895BD1C7B492B00A65C8B /* FaceppTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppTrainer.h; sourceTree = "<group>"; };
+		256895BE1C7B492B00A65C8B /* FaceppTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppTrainer.m; sourceTree = "<group>"; };
+		256895C01C7B492B00A65C8B /* FaceppError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppError.h; sourceTree = "<group>"; };
+		256895C11C7B492B00A65C8B /* FaceppError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppError.m; sourceTree = "<group>"; };
+		256895C21C7B492B00A65C8B /* FaceppResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppResult.h; sourceTree = "<group>"; };
+		256895C31C7B492B00A65C8B /* FaceppResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppResult.m; sourceTree = "<group>"; };
+		256895D01C7B4A3400A65C8B /* 1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-2.jpg"; sourceTree = "<group>"; };
+		256895D21C7B61C400A65C8B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		259668051C7B296300EE1094 /* LOCK ME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOCK ME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259668081C7B296300EE1094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2596680A1C7B296300EE1094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2596680D1C7B296300EE1094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		259668101C7B296300EE1094 /* LOCK_ME.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LOCK_ME.xcdatamodel; sourceTree = "<group>"; };
 		259668121C7B296300EE1094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		259668151C7B296300EE1094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259668171C7B296300EE1094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2596681D1C7B2A4000EE1094 /* LOCK ME-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LOCK ME-Bridging-Header.h"; sourceTree = "<group>"; };
+		2596686A1C7B2AE400EE1094 /* faceRecognitionMethods+data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "faceRecognitionMethods+data.swift"; sourceTree = "<group>"; };
+		2596686C1C7B2BFC00EE1094 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2596686E1C7B2C1F00EE1094 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		259668701C7B323D00EE1094 /* NormalLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalLoginViewController.swift; sourceTree = "<group>"; };
+		25B0987F1C7F514A000AFDA0 /* ConfirmPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPassViewController.swift; sourceTree = "<group>"; };
+		25B098811C7F5D59000AFDA0 /* regFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = regFaceViewController.swift; sourceTree = "<group>"; };
+		25B098851C7F5E3B000AFDA0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		25B098871C7F5E47000AFDA0 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		25B0988B1C7F816E000AFDA0 /* regVoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = regVoiceViewController.swift; sourceTree = "<group>"; };
+		25BB472E1CA16CD000EB71DE /* Waver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waver.m; sourceTree = "<group>"; };
+		25BB47301CA16CDA00EB71DE /* Waver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waver.h; sourceTree = "<group>"; };
+		508478A802DF4D8670805F07 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD11C0E200F14E9214DE144 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DA479B432F66596B536AA03F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +119,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250ED9271C8992B700713CB0 /* AVFoundation.framework in Frameworks */,
+				250ED9251C8992B000713CB0 /* AddressBook.framework in Frameworks */,
+				250ED9231C8992A700713CB0 /* SystemConfiguration.framework in Frameworks */,
+				250ED9211C8992A100713CB0 /* AudioToolbox.framework in Frameworks */,
+				250ED91F1C89928700713CB0 /* QuartzCore.framework in Frameworks */,
+				250ED91D1C89927D00713CB0 /* libz.tbd in Frameworks */,
+				250ED91B1C89926F00713CB0 /* UIKit.framework in Frameworks */,
+				250ED9191C89926700713CB0 /* Foundation.framework in Frameworks */,
+				250ED9171C89925F00713CB0 /* CoreGraphics.framework in Frameworks */,
+				250ED9151C89925800713CB0 /* CoreTelephony.framework in Frameworks */,
+				250ED9131C89924C00713CB0 /* CoreLocation.framework in Frameworks */,
+				250ED9111C8991FE00713CB0 /* iflyMSC.framework in Frameworks */,
+				25B098881C7F5E47000AFDA0 /* AssetsLibrary.framework in Frameworks */,
+				25B098861C7F5E3B000AFDA0 /* MobileCoreServices.framework in Frameworks */,
+				40CC6DCF914276487C1529B4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		256895A91C7B492B00A65C8B /* FaceppSDK_ARC */ = {
+			isa = PBXGroup;
+			children = (
+				256895AA1C7B492B00A65C8B /* FaceppAPI.h */,
+				256895AB1C7B492B00A65C8B /* FaceppAPI.m */,
+				256895AC1C7B492B00A65C8B /* FaceppAPISource */,
+				256895BF1C7B492B00A65C8B /* FaceppResult */,
+			);
+			path = FaceppSDK_ARC;
+			sourceTree = "<group>";
+		};
+		256895AC1C7B492B00A65C8B /* FaceppAPISource */ = {
+			isa = PBXGroup;
+			children = (
+				256895AD1C7B492B00A65C8B /* FaceppClient.h */,
+				256895AE1C7B492B00A65C8B /* FaceppClient.m */,
+				256895AF1C7B492B00A65C8B /* FaceppDetection.h */,
+				256895B01C7B492B00A65C8B /* FaceppDetection.m */,
+				256895B11C7B492B00A65C8B /* FaceppFaceset.h */,
+				256895B21C7B492B00A65C8B /* FaceppFaceset.m */,
+				256895B31C7B492B00A65C8B /* FaceppGroup.h */,
+				256895B41C7B492B00A65C8B /* FaceppGroup.m */,
+				256895B51C7B492B00A65C8B /* FaceppGrouping.h */,
+				256895B61C7B492B00A65C8B /* FaceppGrouping.m */,
+				256895B71C7B492B00A65C8B /* FaceppInfo.h */,
+				256895B81C7B492B00A65C8B /* FaceppInfo.m */,
+				256895B91C7B492B00A65C8B /* FaceppPerson.h */,
+				256895BA1C7B492B00A65C8B /* FaceppPerson.m */,
+				256895BB1C7B492B00A65C8B /* FaceppRecognition.h */,
+				256895BC1C7B492B00A65C8B /* FaceppRecognition.m */,
+				256895BD1C7B492B00A65C8B /* FaceppTrainer.h */,
+				256895BE1C7B492B00A65C8B /* FaceppTrainer.m */,
+			);
+			path = FaceppAPISource;
+			sourceTree = "<group>";
+		};
+		256895BF1C7B492B00A65C8B /* FaceppResult */ = {
+			isa = PBXGroup;
+			children = (
+				256895C01C7B492B00A65C8B /* FaceppError.h */,
+				256895C11C7B492B00A65C8B /* FaceppError.m */,
+				256895C21C7B492B00A65C8B /* FaceppResult.h */,
+				256895C31C7B492B00A65C8B /* FaceppResult.m */,
+			);
+			path = FaceppResult;
+			sourceTree = "<group>";
+		};
 		259667FC1C7B296300EE1094 = {
 			isa = PBXGroup;
 			children = (
+				2596686C1C7B2BFC00EE1094 /* Podfile */,
 				259668071C7B296300EE1094 /* LOCK ME */,
 				259668061C7B296300EE1094 /* Products */,
+				AFCA85434CDBE608838D0290 /* Pods */,
+				CBAAA3854B61298E9C53579A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +209,65 @@
 		259668071C7B296300EE1094 /* LOCK ME */ = {
 			isa = PBXGroup;
 			children = (
+				256895A91C7B492B00A65C8B /* FaceppSDK_ARC */,
 				259668081C7B296300EE1094 /* AppDelegate.swift */,
-				2596680A1C7B296300EE1094 /* ViewController.swift */,
+				25B098841C7F5D6C000AFDA0 /* register */,
+				259668701C7B323D00EE1094 /* NormalLoginViewController.swift */,
 				2596680C1C7B296300EE1094 /* Main.storyboard */,
 				259668121C7B296300EE1094 /* Assets.xcassets */,
 				259668141C7B296300EE1094 /* LaunchScreen.storyboard */,
 				259668171C7B296300EE1094 /* Info.plist */,
+				256895D01C7B4A3400A65C8B /* 1-2.jpg */,
 				2596680F1C7B296300EE1094 /* LOCK_ME.xcdatamodeld */,
+				2596681D1C7B2A4000EE1094 /* LOCK ME-Bridging-Header.h */,
+				2596686E1C7B2C1F00EE1094 /* SwiftNotice.swift */,
+				2596686A1C7B2AE400EE1094 /* faceRecognitionMethods+data.swift */,
+				25BB47301CA16CDA00EB71DE /* Waver.h */,
+				25BB472E1CA16CD000EB71DE /* Waver.m */,
 			);
 			path = "LOCK ME";
+			sourceTree = "<group>";
+		};
+		25B098841C7F5D6C000AFDA0 /* register */ = {
+			isa = PBXGroup;
+			children = (
+				256895D21C7B61C400A65C8B /* RegisterViewController.swift */,
+				25B0987F1C7F514A000AFDA0 /* ConfirmPassViewController.swift */,
+				25B098811C7F5D59000AFDA0 /* regFaceViewController.swift */,
+				25B0988B1C7F816E000AFDA0 /* regVoiceViewController.swift */,
+			);
+			name = register;
+			sourceTree = "<group>";
+		};
+		AFCA85434CDBE608838D0290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CD11C0E200F14E9214DE144 /* Pods.debug.xcconfig */,
+				DA479B432F66596B536AA03F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBAAA3854B61298E9C53579A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B098871C7F5E47000AFDA0 /* AssetsLibrary.framework */,
+				25B098851C7F5E3B000AFDA0 /* MobileCoreServices.framework */,
+				250ED9261C8992B700713CB0 /* AVFoundation.framework */,
+				250ED9241C8992B000713CB0 /* AddressBook.framework */,
+				250ED9221C8992A700713CB0 /* SystemConfiguration.framework */,
+				250ED9201C8992A100713CB0 /* AudioToolbox.framework */,
+				250ED91E1C89928700713CB0 /* QuartzCore.framework */,
+				250ED91C1C89927D00713CB0 /* libz.tbd */,
+				250ED91A1C89926F00713CB0 /* UIKit.framework */,
+				250ED9181C89926700713CB0 /* Foundation.framework */,
+				250ED9161C89925F00713CB0 /* CoreGraphics.framework */,
+				250ED9141C89925800713CB0 /* CoreTelephony.framework */,
+				250ED9121C89924C00713CB0 /* CoreLocation.framework */,
+				250ED9101C8991FE00713CB0 /* iflyMSC.framework */,
+				508478A802DF4D8670805F07 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +277,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2596681A1C7B296300EE1094 /* Build configuration list for PBXNativeTarget "LOCK ME" */;
 			buildPhases = (
+				081CB6FBD9BA4A090E04A1B2 /* Check Pods Manifest.lock */,
 				259668011C7B296300EE1094 /* Sources */,
 				259668021C7B296300EE1094 /* Frameworks */,
 				259668031C7B296300EE1094 /* Resources */,
+				813C9B6BB799F65C7807A4BC /* Embed Pods Frameworks */,
+				9BBEB19980D6572EAA7644E3 /* Copy Pods Resources */,
+				25F2D9911C84646600245365 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,22 +332,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256895D11C7B4A3400A65C8B /* 1-2.jpg in Resources */,
 				259668161C7B296300EE1094 /* LaunchScreen.storyboard in Resources */,
 				259668131C7B296300EE1094 /* Assets.xcassets in Resources */,
+				2596686D1C7B2BFC00EE1094 /* Podfile in Resources */,
 				2596680E1C7B296300EE1094 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		081CB6FBD9BA4A090E04A1B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25F2D9911C84646600245365 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK; do\nEXTRACTED_ARCHS=()\n\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n\nfor ARCH in $ARCHS; do\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\n\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\n/usr/bin/codesign -f -s \"${CODE_SIGN_IDENTITY}\" $FRAMEWORK\ndone";
+		};
+		813C9B6BB799F65C7807A4BC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBEB19980D6572EAA7644E3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		259668011C7B296300EE1094 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2596680B1C7B296300EE1094 /* ViewController.swift in Sources */,
+				259668711C7B323D00EE1094 /* NormalLoginViewController.swift in Sources */,
+				256895C41C7B492B00A65C8B /* FaceppAPI.m in Sources */,
+				256895CA1C7B492B00A65C8B /* FaceppInfo.m in Sources */,
+				256895C81C7B492B00A65C8B /* FaceppGroup.m in Sources */,
+				256895CD1C7B492B00A65C8B /* FaceppTrainer.m in Sources */,
+				256895CC1C7B492B00A65C8B /* FaceppRecognition.m in Sources */,
+				256895C61C7B492B00A65C8B /* FaceppDetection.m in Sources */,
+				256895C91C7B492B00A65C8B /* FaceppGrouping.m in Sources */,
 				259668111C7B296300EE1094 /* LOCK_ME.xcdatamodeld in Sources */,
+				256895D31C7B61C500A65C8B /* RegisterViewController.swift in Sources */,
+				25B098821C7F5D59000AFDA0 /* regFaceViewController.swift in Sources */,
+				25BB472F1CA16CD000EB71DE /* Waver.m in Sources */,
+				256895CB1C7B492B00A65C8B /* FaceppPerson.m in Sources */,
+				2596686F1C7B2C1F00EE1094 /* SwiftNotice.swift in Sources */,
+				25B0988C1C7F816E000AFDA0 /* regVoiceViewController.swift in Sources */,
+				2596686B1C7B2AE400EE1094 /* faceRecognitionMethods+data.swift in Sources */,
+				256895CF1C7B492B00A65C8B /* FaceppResult.m in Sources */,
 				259668091C7B296300EE1094 /* AppDelegate.swift in Sources */,
+				256895CE1C7B492B00A65C8B /* FaceppError.m in Sources */,
+				256895C51C7B492B00A65C8B /* FaceppClient.m in Sources */,
+				25B098801C7F514A000AFDA0 /* ConfirmPassViewController.swift in Sources */,
+				256895C71C7B492B00A65C8B /* FaceppFaceset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +538,46 @@
 		};
 		2596681B1C7B296300EE1094 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD11C0E200F14E9214DE144 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				INFOPLIST_FILE = "LOCK ME/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.genii.LOCK-ME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LOCK ME/LOCK ME-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		2596681C1C7B296300EE1094 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA479B432F66596B536AA03F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				INFOPLIST_FILE = "LOCK ME/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.genii.LOCK-ME";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LOCK ME/LOCK ME-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +600,7 @@
 				2596681C1C7B296300EE1094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
